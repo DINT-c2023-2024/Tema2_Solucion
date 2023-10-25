@@ -1,0 +1,22 @@
+﻿<Window x:Class="FormatoTexto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FormatoTexto"
+        mc:Ignorable="d"
+        Title="Texto con formato" Height="278" Width="591.2" Icon="config.ico">
+    <Grid>
+        <TextBlock x:Name="TextoFormatoTextBlock" TextAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap" TextTrimming="WordEllipsis"  VerticalAlignment="Top" Margin="46,144,0,0" Height="36" Width="494" Background="#FFEAF1AD" FontSize="18"/>
+        <TextBox x:Name="TextoTextBox" HorizontalAlignment="Left" Height="65" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Margin="46,50,0,0" TextChanged="TextoTextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Texto" VerticalAlignment="Top" Margin="46,33,0,0"/>
+        <CheckBox x:Name="NegritaCheckBox" Content="Negrita" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="218,50,0,0" FontWeight="Bold" Checked="NegritaCheckBox_Checked" Unchecked="NegritaCheckBox_Unchecked"/>
+        <CheckBox x:Name="CursivaCheckBox" Content="Cursiva" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="306,50,0,0" FontStyle="Italic" Checked="CursivaCheckBox_Checked" Unchecked="CursivaCheckBox_Unchecked"/>
+        <RadioButton x:Name="AzulRadioButton" Content="Azul" IsChecked="True" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="489,31,0,0" Checked="AzulRadioButton_Checked"/>
+        <RadioButton x:Name="RojoRadioButton" Content="Rojo" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="489,50,0,0" Checked="RojoRadioButton_Checked"/>
+        <RadioButton x:Name="VerdeRadioButton" Content="Verde" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="489,70,0,0" Checked="VerdeRadioButton_Checked"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Color del texto" VerticalAlignment="Top" Margin="400,49,0,0"/>
+
+
+    </Grid>
+</Window>
