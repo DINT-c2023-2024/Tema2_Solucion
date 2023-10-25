@@ -1,2 +1,2 @@
 # Tema2_Solucion
-Este tema es una introducción en el uso de WPF. Se realizan 8 ejercicios.
+Este tema es una introducción al uso de WPF con Visual Studio 2022. Se han realizado 8 ejercicios.
